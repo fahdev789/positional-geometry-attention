@@ -125,5 +125,32 @@ This distinction is central.
 * A concept validated via a small-scale numerical examples
 * Repo being built incrementaly file-by-file
 
-# License
-MIT License. This research documents **independent experiment and intrepretation** of publicaly known transformers mechanism.
+## Repository Structure
+
+├── experiments/ # minimal attention + PE experiments
+
+├── notes/ # geometric explanations & diagrams
+
+├── LICENSE
+
+└── README.md
+
+---
+
+## Citations / Prior Work
+
+If you use or build on this repository, please cite the original works:
+
+- Vaswani et al., *Attention Is All You Need*, 2017  
+- Press et al., *Train Short, Test Long: Attention with Linear Biases*, 2021  
+- Su et al., *RoFormer: Enhanced Transformer with Rotary Position Embedding*, 2021  
+- Shaw et al., *Self-Attention with Relative Position Representations*, 2018  
+
+This repository provides **independent explanations and implementations** of publicaly known transformers mechanism.
+
+---
+
+## License
+
+This project is released under the **MIT License**.
+See `LICENSE` for details.
